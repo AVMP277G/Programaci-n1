@@ -19,7 +19,10 @@ area_total = triangulo + rectángulo
 print(f"El area total del terreno es: {area_total} mts")
 
 #Terreno circular
-radio = float(input("Ingrese el "))
+radio = float(input("Ingrese el radio del terreno - Circular: "))
+
+
+
 
 
 

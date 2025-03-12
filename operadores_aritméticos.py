@@ -19,5 +19,6 @@ ejemplo_4 = 2*( 4 *(7 + 4 * 6)- 3 * 32)
 print(ejemplo_4)
 #Librerias
 import math
-ejemplo_5 = 2*( 4 *(7 + 4 * 6)- 3 * 32)
+ejemplo_5 = math.pow(2,3)
+rta
 print(f "ejemplo_5" = {ejemplo_5})
