@@ -4,21 +4,38 @@
 #Programa: Ingeniería de Sistemas 
 #Docente: Jesús David Garcia Caro 
 # Entrada de datos
+# Solicitar datos al usuario
 monto_compra = float(input("Ingrese el monto de la compra: "))
-es_vip = input("¿Es cliente VIP? (s/n): ")
-tiene_codigo = input("¿Tiene código de descuento especial? (s/n): ")
+es_vip = input("¿Es cliente VIP? (sí/no): ")
+tiene_codigo_descuento = input("¿Tiene código de descuento? (sí/no): ")
 
-# Cálculo de descuentos
-total_pagar = monto_compra
+# Convertir respuestas a valores booleanos
+if es_vip == "sí":
+    es_vip = True
+else:
+    es_vip = False
 
+if tiene_codigo_descuento == "sí":
+    tiene_codigo_descuento = True
+else:
+    tiene_codigo_descuento = False
+
+# Inicializar descuento total
+descuento_total = 0
+
+# Aplicar descuentos según condiciones
 if monto_compra > 100:
-    total_pagar *= 0.80  # Descuento del 20%
+    descuento_total += 0.20  # Descuento del 20%
 
-if es_vip == "s":
-    total_pagar *= 0.90  # Descuento del 10%
+if es_vip:
+    descuento_total += 0.10  # Descuento adicional del 10%
 
-if tiene_codigo == "s":
-    total_pagar *= 0.95  # Descuento del 5%
+if tiene_codigo_descuento:
+    descuento_total += 0.05  # Descuento adicional del 5%
 
-# Resultado
-print("El total a pagar después de los descuentos es: $", round(total_pagar, 2))
+# Calcular el total a pagar
+total_a_pagar = monto_compra * (1 - descuento_total)
+
+# Mostrar el resultado
+print("Total a pagar después de descuentos: $", round(total_a_pagar, 2))
+
