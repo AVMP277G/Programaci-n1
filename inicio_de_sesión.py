@@ -1,4 +1,4 @@
-#Datos inicio de sesion
+#Datos inicio de sesión
 Angie = "AVMP277G"
 password = 7027
 print(type(password))
@@ -6,7 +6,7 @@ print(type(password))
 usuario = input("Usuario: ")
 contraseña = int(input("Contraseña: "))
 print(type(contraseña))
-#Validacion
+#Validación
 #Operadores de comparación
 if (Angie == usuario and password == contraseña):
     print("Bienvenido Sistema")
