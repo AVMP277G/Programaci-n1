@@ -1,5 +1,5 @@
 #Crear lista
-lista = [2, "a", "David", 3.14, True, 100, "@"]
+lista = [2, "A", "Angie", 3.14, True, 100, "@"]
 print(type(lista))#tipo de dato
 print(lista)#imprimir lista
 
