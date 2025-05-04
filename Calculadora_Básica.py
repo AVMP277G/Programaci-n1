@@ -3,6 +3,7 @@
 import math
 # While true
 while True:
+<<<<<<< HEAD
     # Menú
     print("\nBienvenido a la Calculadora de Operaciones Básica")
 print("Menú de opciones")
@@ -15,6 +16,20 @@ print("6. Raíz cuadrada")
 print("7. Salir")
 # Opción
 opción = int (input("Ingrese una opción: "))
+=======
+    #Menú
+    print("/n Bienvenido a la Calculadora de Operaciones Básica")
+    print("Menú de opciones")
+    print("1. Sumar")
+    print("2. Restar")
+    print("3. Multiplicación")
+    print("4. Divición") 
+    print("5. Potencia")
+    print("6. Raíz cuadrada")
+    print("7. Salir")
+    # Opción
+    opción = int (input("Ingrese una opción: "))
+>>>>>>> bc008c64ea13687e6faa6565b66f0a81a334c193
 
 if opción == 1:
         num_1 = float(input("Ingrese el primer número: "))
@@ -53,10 +68,20 @@ elif opción == 6:
 
 elif opción == 7:
     print("Saliendo de la Calculadora ......")
+<<<<<<< HEAD
     print("Gracias por usar la Calculadora de Operaciones Básica!!!")
     break
+=======
+    
+>>>>>>> bc008c64ea13687e6faa6565b66f0a81a334c193
 else:
         print("Opción errónea, intente de nuevo")
 
 
+<<<<<<< HEAD
     print("Dentro del bucle de repetición")
+=======
+print("Dentro del bucle de repetición")
+print("Gracias por usar la Calculadora de Operaciones Básica!!!")
+break 
+>>>>>>> bc008c64ea13687e6faa6565b66f0a81a334c193

@@ -3,6 +3,11 @@ import math
 ejemplo_2 = 2 * ( (4 * ( 7 + ( 4 * ( (5 * 3) - 9) ) ) ) - ( 3 * (40 - 8) ) )
 print(ejemplo_2)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> bc008c64ea13687e6faa6565b66f0a81a334c193
 #parcial 1
 #angie
 import math
@@ -59,4 +64,8 @@ while True:
     else:
         print("Opción incorrecta, vuelvalo a intentarlo")
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1a2412d932778f5396d34d76139ef8d62dfe4164
+>>>>>>> bc008c64ea13687e6faa6565b66f0a81a334c193
