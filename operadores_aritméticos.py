@@ -20,5 +20,10 @@ print(ejemplo_4)
 #Librerias
 import math
 ejemplo_5 = math.pow(2,3)
+<<<<<<< HEAD
 # rta
 print(f"ejemplo_5: {ejemplo_5}")
+=======
+rta
+print(f"ejemplo_5 = {ejemplo_5}")
+>>>>>>> 289cbbd9b3695b924a8f823c423a81241af4af87
