@@ -1,0 +1,149 @@
+{
+    "Sedes": {
+        "Yopal": {},
+        "San Gil": {},
+        "Chiquinquirá": {
+            "Facultades": [
+                {
+                    "Ciencias Economicas y Administrativas": {
+                        "Programas": [
+                            "Contaduria Publica",
+                            "Administracion de Empresas",
+                            "Tecnologia en Gestion Empresarial"
+                        ]
+                    }
+                },
+                {
+                    "Ciencias Naturales e Ingenierias": {
+                        "Programas": [
+                            {
+                                "Inteligencia Artificial": {
+                                    "Materias": [
+                                        {
+                                            "Semestre I": [
+                                                "Calculo Diferencial",
+                                                "Fundamentos de Programacion",
+                                                "Alegebra",
+                                                "Diseño y Prototipado",
+                                                "Mecanica",
+                                                "Expresión 1"
+                                            ]
+                                        },
+                                        {
+                                            "Semestre II": [
+                                                "Matematicas Discretas",
+                                                {
+                                                    "Programacion 1": {
+                                                        "Docente": {
+                                                            "Nombre": "Jesus David",
+                                                            "Apellido": "Garcia",
+                                                            "Celular": 311826,
+                                                            "Correo": "jesus@gmail.com"
+                                                        },
+                                                        "Estudiantes": [
+                                                            {
+                                                                "Nombre": "Yenifer Camila",
+                                                                "Apellido": "Contreras Cortes",
+                                                                "Celular": 3174674570,
+                                                                "Correo": "cami@gmail.com"
+                                                            },
+                                                            {
+                                                                "Nombre": "Karen Daniela",
+                                                                "Apellido": "Martinez Castellanos",
+                                                                "Celular": 3224567890,
+                                                                "Correo": "Karendaniela@gmail.com"
+                                                            },
+                                                            {
+                                                                "Nombre": "Anigie Valentina",
+                                                                "Apellido": "Martinez Poveda",
+                                                                "Celular": 311112255,
+                                                                "Correo": "Julanito2@gmail.com"
+                                                            }
+                                                        ],
+                                                        "Codigo": "PC25-1-PR101"
+                                                    }
+                                                },
+                                                "Calculo Integral",
+                                                "Electromagenetismo",
+                                                "Proyecto Integrador 1",
+                                                "Expresión 2"
+                                            ]
+                                        },
+                                        {
+                                            "Semestre III": [
+                                                "Hardware y Sistemas Operativos",
+                                                "Estructura de Datos",
+                                                "Calculo en Varias Variables",
+                                                "Modelado y Analisis Numerico",
+                                                "Sistemas Bioticos",
+                                                "Proyecto Integrador 2",
+                                                "Ciudadania"
+                                            ]
+                                        },
+                                        {
+                                            "Semestre IV": [
+                                                "Pensamiento sistemico",
+                                                "Redes",
+                                                "Analisis de Algoritmos",
+                                                "Base de Datos",
+                                                "Programacion 2",
+                                                "Ecuaciones diferenciales",
+                                                "Proyecto Integrador 3"
+                                            ]
+                                        },
+                                        {
+                                            "Semestre V": [
+                                                "Modelado de Sistemas de Informacion",
+                                                "Administracion y Gestion de Bases de Datos",
+                                                "Desarrollo web",
+                                                "Electiva Disciplinar 1",
+                                                "probabilidad y estadistica",
+                                                "Proyecto Integrador 4",
+                                                "Electiva complementaria"
+                                            ]
+                                        },
+                                        {
+                                            "Semestre VI": [
+                                                "Ingenieria de Software",
+                                                "Seguridad Informática",
+                                                "Inteligencia Artificial",
+                                                "Formulacion y Evaluacion de Proyectos",
+                                                "Etica y compromiso Profesional",
+                                                "Electiva Disciplinar 2"
+                                            ]
+                                        },
+                                        {
+                                            "Semestre VII": [
+                                                "Arquitectura de Software",
+                                                "Administracion de Servidores",
+                                                "Ciencia de Datos",
+                                                "Tecnologia Emergentes de Desarrollo",
+                                                "Investigacion de Operaciones",
+                                                "Professional comunication techniques for engieneers",
+                                                "Gestion de Proyectos TI"
+                                            ]
+                                        },
+                                        {
+                                            "Semestre VIII": [
+                                                "Modalidad de Grado",
+                                                "Electiva disciplinar 3",
+                                                "Electiva de Ingenieria"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Ciencias Jurídicas y Politicas": {
+                        "Programas": [
+                            "Derecho"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
